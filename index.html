@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  </head>
+
+  <body>
+    <div id='app' class='container'>
+
+    <div id='headers' class='center'>
+      <h1>Number Guessing Game!</h1>
+      <h2>Guess a number between 1 and 100! (inclusive)</h2>
+    </div>
+
+      <div id='main'>
+        <div id='parent-input' class='center'>
+          <input id='player-input' class='center' placeholder='Enter a guess' maxlength='3' autofocus=autofocus></input>
+          <button id='submit' class='btn btn-success btn-sm' type='submit'>Sumbit</button>
+        </div>
+
+        <div id='guesses' class='center'>
+          <ul class='list-inline'>
+            <li class='list-inline-item'>-</li>
+            <li class='list-inline-item'>-</li>
+            <li class='list-inline-item'>-</li>
+            <li class='list-inline-item'>-</li>
+            <li class='list-inline-item'>-</li>
+          </ul>
+        </div>
+
+        <div id="menu-btns" class='center'>
+          <button id='hint' class='btn btn-info'>Hint</button>
+          <button id='reset' class='btn btn-dark'>Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div id='footer'>
+      <div class='row'>
+        <div class='col'></div>
+        <div class='col'>
+          <h4>Project by Mario Villacreses</h4>
+        </div>
+        <div class='col'></div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
